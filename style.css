@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* LEFT SIDEBAR (COLOR CHANGED ONLY) */
+.sidebar {
+    width: 240px;
+    background: #630c0c;
+    /* new color */
+    color: #ffffff;
+    padding: 30px 20px;
+}
+
+.sidebar h1 {
+    color: #171716;
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+.sidebar nav a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.sidebar nav a:hover {
+    color: #f5c542;
+}
+
+/* CONTENT */
+.content {
+    flex: 1;
+    background: #ffffff;
+}
+
+.hero {
+    background: #ffff;
+    color: hsl(0, 0%, 2%);
+    padding: 80px 30px;
+}
+
+.hero h2 {
+    font-size: 36px;
+}
+
+.section {
+    padding: 50px 30px;
+}
+
+.section h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+/* CENTER ALIGN (NEW – ONLY FOR ABOUT/GALLERY/CONTACT) */
+.center {
+    text-align: center;
+}
+
+/* MENU */
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.item {
+    border: 1px solid #000000;
+    padding: 20px;
+    width: 180px;
+    border-radius: 10px;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.item:hover {
+    background: #000000;
+    color: #ffffff;
+    transform: translateY(-6px);
+}
+
+.item button {
+    background: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
